@@ -9,20 +9,20 @@ const forward = document.getElementById("forward")
 
 const songs = [
         {
-            song_name : "cancion CHIDA",
-            artist_name: "artista 1",
-            song_url: "./media/song.mp3",
+            song_name : "Last Shot",
+            artist_name: "Valorant",
+            song_url: "./media/Last Shot.mp3",
             caratula: "https://picsum.photos/200"
         },
         {
-            song_name : "cancion CHIDA 2",
-            artist_name: "artista 1",
+            song_name : "Hell of Life",
+            artist_name: "Kanye West",
             song_url: "./media/song_2.mp3",
             caratula: "https://picsum.photos/200"
         },
         {
-            song_name : "cancion CHIDA 3",
-            artist_name: "artista 3",
+            song_name : "So be It",
+            artist_name: "Clipse, Pusha T, Malice",
             song_url: "./media/song_3.mp3",
             caratula: "https://picsum.photos/200"
         },

@@ -5,14 +5,72 @@
 }
 
 .music-player {
-    background: yellow;
+    background: rgb(246, 246, 246);
 }
 
-@media (orientation: landscape) and (width >= 800px) and (width <= 1920px){}
+.search-bar{
+    width: 200px;
+    height: 25px;
+}
+
+.column-left{
+    flex-basis: 50%;
+    padding: 40px;
+}
+
+.song-img{
+    align-self: center;
+    width: 200px;
+}
+
+.title{
+    align-self: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+}
+
+.artist{
+    align-self: center;
+    font-size: 14px;
+    color: #333;
+}
+
+
+
+
+
+.column-right{
+    flex-basis: 50%;
+    padding: 40px
+}
+
+
+/*@media (orientation: landscape) and (width >= 800px) and (width <= 1920px){
+
+}
 
 @media(orientation: landscape) and (800px <= width <= 1920px) {
     .music-player{
-        background: red;
+        background: rgb(255, 255, 255);
+    }
+}
+
+@media screen and (min-width: 800px){
+    #mobile-nav{
+        display: none;
+    }
+
+    .container{
+        height: 100vh;
+    }
+
+    .music-player{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
 }
 
@@ -114,5 +172,5 @@
         background: #f53192;
         color: #fff;
     }
-
+/*
 }
