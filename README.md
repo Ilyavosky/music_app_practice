@@ -2,7 +2,7 @@
 
 **Este es un proyecto para Aplicaciones Web** __Se trata de un reproductor de música__
 
-*Es un buen proyecto,*  _forkeado del repositorio del profe_
+*Es un buen proyecto,*  _forkeado del repositorio del profe Mijangos_
 
 __Gracias Especiales a Jamachulel__ ***como extra, aprendí a escribir un README***
 
