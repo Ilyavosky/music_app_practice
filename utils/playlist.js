@@ -1,21 +1,29 @@
 import getRandom from "./utils.js"
 
-const playlist = [];
+export default function createPlaylist(data,actual_playlist){
 
-export default function createPlaylist(max){
+    let playlist = [];
 
-    console.log(playlist)
+    if(actual_playlist !== null){
+        playlist = actual_playlist;
+    }
 
-    if(playlist.length !== max){
+    console.log(data);
 
-        let song = getRandom(max);
+    if(data.length !== 0){
 
-        if(playlist.includes(song)){
-            createPlaylist(max);
-        }else{
-            playlist.push(song);
-            createPlaylist(max)
-        }
+
+        let index_song = getRandom(data.length);
+        let song = data[index_song];
+
+
+        playlist.push(data[index_song]);
+        data.splice(index_song, 1);
+
+         console.log(playlist);
+
+        return createPlaylist(data, playlist);
+
     }
 
     return playlist;
